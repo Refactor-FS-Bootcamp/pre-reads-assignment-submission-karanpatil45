@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="results.html" method="GET">
+        <div>
+            <label>First Name</label>
+            <input name="name">
+        </div>
+        <div>
+            <label>Last Name</label>
+            <input name="password">
+        </div><br>
+        <label for="gender">Select a gender :</label><br>
+        <input type="radio" name="gender" value="male">Male
+        <input type="radio" name="gender" value="female">Female<br>
+        <label for="primg">Select an Image:</label>
+        <input type="file" id="primg" name="primg"><br>
+        <br><br><br>
+        <label for="myreview">Review of Me:</label>
+        <textarea id="myreview" name="myreview" rows="4" cols="50">Hi my name is Karan.
+            I have been working since 1.5 years in this industry and would like to explore new projects and work on new technologies such MERN stack.
+            It would be fun learning in this Bootcamp, so lets have great journey ahead.
+        </textarea><br><br>
+
+        <label for="country">Choose a country :</label>
+        <select name="country" id="country">
+            <option value="usa">USA</option>
+            <option value="germany">GERMANY</option>
+            <option value="india">INDIA</option>
+            <option value="france">FRANCE</option>
+            <option value="japan">JAPAN</option>
+            <option value="russia">RUSSIA</option>
+        </select><br>
+        <button>Submit</button><br>
+        <button>Reset</button><br>
+    </form>
+</body>
+</html>
